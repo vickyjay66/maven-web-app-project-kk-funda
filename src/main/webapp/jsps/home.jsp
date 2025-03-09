@@ -34,7 +34,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<img src="images/kkfunda.jpg" alt="" width="100">
 	</span>
 	<span style="font-weight: bold;">
-		JSK DEVOPS , 
+		JSK CYBER DEVOPS  , 
 		SR NAGAR HYDERABAD,
 		Bangalore,
 		+91-9676831734,+91-9676831734
