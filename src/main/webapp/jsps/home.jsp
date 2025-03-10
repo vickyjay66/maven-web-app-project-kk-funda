@@ -36,7 +36,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	<span style="font-weight: bold;">
 		JSK CYBER DEVOPS  , 
 		SR NAGAR HYDERABAD,
-		Bangalore,
+		HYDERABAD,
 		+91-9676831734,+91-9676831734
 		kkeducationblr@gmail.com
 		<br>
