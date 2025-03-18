@@ -17,5 +17,19 @@ node
   {
     sh "${mavenhome}/bin/mvn clean deploy"
   }
+   stage ("tomcat deploying") {
+        echo "Deploying WAR file using curl..."
 
-}
+        sh """
+            curl -u inam:inam66 \
+            --upload-file /var/lib/jenkins/workspace/aws-devops-pipeline/target/maven-web-application.war \
+            "http://13.127.196.51:8080/manager/text/deploy?path=/maven-web-application&update=true"
+        """
+    }
+
+
+}    
+   
+
+
+  
