@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>KK FUNDA</name>
-		<url>http://kkfunda.com</url>
+		<name>SAIKUMAR</name>
+		<url>http://cyber.com</url>
 	</organization>
 
 	<properties>
@@ -133,7 +133,12 @@
 						<contextPath>/maven-web-application</contextPath>
 					</webApp>
 				</configuration>
-			</plugin>
+			</plugin> 
+			<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.2</version> <!-- Use a stable version -->
+        </plugin>
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
