@@ -1,0 +1,24 @@
+If you want to see which file is consuming the most space in a directory, you can use the following command:
+
+bash
+Copy
+Edit
+ls -lhS
+-l → Long listing format
+-h → Human-readable sizes (e.g., KB, MB, GB)
+-S → Sort by file size (largest first)
+If you want to list only the top 10 largest files, use:
+
+bash
+Copy
+Edit
+ls -lhS | head -10
+Alternatively, if you want to check file sizes recursively in subdirectories, use:
+
+bash
+Copy
+Edit
+du -ah . | sort -rh | head -10
+du -ah . → Display sizes of all files and folders in human-readable format
+sort -rh → Sort in reverse order (largest first)
+head -10 → Show only the top 10
