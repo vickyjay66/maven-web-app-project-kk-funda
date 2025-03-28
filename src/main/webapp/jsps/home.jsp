@@ -37,7 +37,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		JSK CYBER DEVOPS  , 
 		SR NAGAR HYDERABAD,
 		HYDERABAD,
-		+91-9676831734,+91-9676831734
+		+91-8374751152,+91-9676831734
 		kkeducationblr@gmail.com
 		<br>
 		<a href="mailto:kkeducation@gmail.com">Mail to KK FUNDA</a>
