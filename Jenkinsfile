@@ -33,7 +33,7 @@ node
     sh """ 
           curl -u inam:inam66 \
           --upload-file /var/lib/jenkins/workspace/aws-devops-pipeline/target/maven-web-application.war\
-          "http://15.207.21.92:8080/manager/text/deploy?path=maven-web-application&update=true"
+          "http://13.201.137.182:8080/manager/text/deploy?path=maven-web-application&update=true"
       """
   }
 
