@@ -25,7 +25,7 @@ node{
 	echo "Deploying WAR file using curl..."
 	sh """
 	      curl -u inam:inam66\
-	      --upload-file /var/lib/jenkins/worksapce/sai-devops/target/maven-web-application.war\
+	      --upload-file /var/lib/jenkins/workspace/sai-devops/target/maven-web-application.war\
 	      "http://13.201.137.182:8080/manager/text/deploy?path=maven-web-application&update=true"
 	   """
 	}
