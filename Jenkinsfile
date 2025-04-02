@@ -18,7 +18,7 @@ node{
 	}
 	stage('nexus')
 	{
-	sh "${maven clean deploy}"
+	sh "${mavenhome}/bin/mvn clean deploy"
 	}
 	stage('tomcat deploy')
 	{
